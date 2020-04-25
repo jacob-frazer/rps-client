@@ -1,0 +1,89 @@
+#Rock {
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(255, 0, 0);
+    float: left;
+    background-color: rgb(90, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: gainsboro;
+    margin: 20px;
+  }
+
+#Paper {
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(30, 255, 0);
+    float: left;
+    background-color: darkgreen;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: gainsboro;
+    margin: 20px;
+  }
+
+#Scissors {
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(94, 183, 212);
+    float: left;
+    background-color: rgb(0, 4, 255);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    margin: 20px;
+  }
+
+.rpsContainer {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.header {
+  font-size: 24px;  
+  text-align: center;
+  background-color: rgb(34, 32, 32);
+  color: gainsboro;
+  padding: 10px;
+}
+
+.scoreboard {
+  font-size: 20px;  
+  text-align: center;
+  background-color: rgb(94, 89, 89);
+  color: rgb(255, 238, 83);
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  display: table;
+}
+
+.Column {
+  
+  float: left;
+  width: 33%;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

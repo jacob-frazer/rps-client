@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-color: lightgrey; 
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
